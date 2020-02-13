@@ -1,0 +1,16 @@
+{
+  "name": "mp3code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.4.0",
+    "node-lame": "^1.2.0"
+  }
+}
