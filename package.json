@@ -12,5 +12,8 @@
   "dependencies": {
     "cli-progress": "^3.4.0",
     "node-lame": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
