@@ -14,13 +14,14 @@ getListFiles(DIR_PATH_IN)
     const step = numberFileInOneIterration === 0 
       ? files.length 
       : numberFileInOneIterration;
-    let iterration = 1;  
+    let iterration = 1;
+
     if(numberFileInOneIterration > 0 && numberFileInOneIterration < files.length) {
       console.log(`Enabled quantity files by one iteration: ${numberFileInOneIterration}`);
       console.log(`Quantity mp3-files (${files.length}) more than ${numberFileInOneIterration}`);
       console.log(`It will be ${Math.ceil(files.length / numberFileInOneIterration)} iterrations`)
     }
-
+    //if numberFileInOneIterration > 0 than split proccess of encoding acording to numberFileInOneIterration 
     for(let i = 0; i < files.length; i += step){
 
       if(numberFileInOneIterration > 0 && numberFileInOneIterration < files.length) {
